@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Serif";
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-container {
+  overflow: hidden;
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1174px;
+  margin: 0 auto;
+}
+
+.list-resert {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 14px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.header__container {
+  max-width: 1760px;
+  padding: 34px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  background-image: url("../image/Hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.hero__block {
+  max-width: 560px;
+  padding-top: 500px;
+}
+
+.hero__subtitle {
+  font-family: "PT Sans";
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero__title {
+  margin-bottom: 10px;
+  display: block;
+  font-family: "PT Serif", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.hero__block-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.block-info__author {
+  margin: 0 10px;
+}
+
+.content__left-container {
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 370px;
+  margin-bottom: 40px;
+}
+
+.card__large {
+  max-width: 770px;
+  text-align: left;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-info__middle {
+  padding: 14px;
+}
+
+.card-info__large {
+  padding: 25px 30px;
+}
+
+.left-card__img {
+  margin-bottom: 15px;
+}
+
+.card__subtitle {
+  margin-bottom: 8px;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #c9a96e;
+}
+
+.left-card__title {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #171717;
+}
+
+.card__info {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.card-info__text {
+  max-width: 600px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,87 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'PT Serif';
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-container {
+  overflow: hidden; // если на сайте position: sticky - убери эту настройку
+}
+
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1174px;
+  margin: 0 auto;
+}
+
+.list-resert {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  margin-right: 14px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
